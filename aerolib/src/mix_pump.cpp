@@ -20,4 +20,5 @@ void MixPump::on_for(int time)
 {
 	on();
 	delay(time);
+	off();
 }
