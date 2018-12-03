@@ -66,7 +66,9 @@ int LevelSensor::ReadValue(int channel)
   DisableCom();
   return tmp;
 }
-
+  /* alert est la valeur de déclanchement par rapport a la valeur analogique %1026
+  // il y auras des pertes du coup un niveau de déclenchement bas 100  400 me semble bien
+  */
 int LevelSensor::getLevel(int alert)
 {
     int i = 0;

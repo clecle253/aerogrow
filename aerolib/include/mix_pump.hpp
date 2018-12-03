@@ -9,9 +9,13 @@ void setup(int pin);
 void on();
 void off();
 void on_for(int time);
+bool GetStatus();
+void on_off();
+
 
 private:
 int pin;
+bool status;
 
 };
 

@@ -6,5 +6,8 @@
 #include "LevelSensor.hpp"
 #include "Pulverisateur.hpp"
 #include "Pump.hpp"
+#include "FlowSensor.hpp"
+#include "Dht.hpp"
+#include "routines.hpp"
 
 #endif /*AEROGROWLIB_HPP*/
